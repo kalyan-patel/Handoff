@@ -1,0 +1,18 @@
+
+
+
+
+.home h2 {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.items {
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  gap: 30px;
+}

@@ -1,0 +1,24 @@
+GET http://localhost:5000/api/listings
+
+###
+
+GET http://localhost:5000/api/listings/6638373a7891b2fab404a284
+
+###
+
+GET http://localhost:5000/api/listings/user/abc@asdf.com
+
+###
+
+DELETE http://localhost:5000/api/listings/664c07401766d72e9e846279
+
+###
+
+POST http://localhost:5000/api/listings
+Content-Type: application/json
+
+{
+    "title": "Lightly used Couch",
+    "description": "Bought last year, in good condition",
+    "price": "500"
+}
